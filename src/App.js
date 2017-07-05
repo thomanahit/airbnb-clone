@@ -6,19 +6,16 @@ import styled from "styled-components";
 import { PageContainer } from "./components/StyledContainers";
 import NavBar from "./components/NavBar";
 import Tabs from "./components/Tabs";
-
+import WelcomeBanner from "./components/WelcomeBanner.js";
+import HomePageSearch from "./components/HomePageSearch.js";
 
 
 
 const WelcomeSplash = () =>
   <PageContainer>
     <NavBar />
-    <h2>Welcome to React</h2>
-    <p>
-      To get started, edit <code>src/App.js</code> and save to reload.
-    </p>
-    <div>Another app</div>
-    <p></p>
+<WelcomeBanner />
+<HomePageSearch />
   </PageContainer>;
 
   const Tabss = () =>
